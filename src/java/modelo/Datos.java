@@ -6,10 +6,20 @@
 
 package modelo;
 
-/**
- *
- * @author ILP
- */
+import java.sql.*;
+
 public class Datos {
+    Connection p;
+    PreparedStatement z;
+
+    public Datos() {
+        
+        try {
+            
+        } catch (Exception e) {
+        }
+        
+    }
+ 
     
 }
